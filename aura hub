@@ -19,6 +19,6 @@ print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1
 end)
 local Tab = Window:NewTab("script 2")
 local Section = Tab:NewSection("سكربت اول")
-Section:NewButton("create ur private server free", "ButtonInfo", function()
+Section:NewButton("steal a brainrot", "ButtonInfo", function()
 print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/platinww/CrustyMain/refs/heads/main/Steal-A-Brainrot/desync.lua"))()
 end)
