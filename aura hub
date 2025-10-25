@@ -1,11 +1,16 @@
-local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 
-local Window = Library:NewWindow("by nowu_real90")
-local Tab = Window:NewSection("Tap1")
-Tab:CreateButton("steal a brainrot", function()
-print("hello")loadstring(game:HttpGet("https://raw.githubusercontent.com/ily123950/Vulkan/refs/heads/main/Tr"))()
-end)
+local Window = OrionLib:MakeWindow({Name = "by nowu_real90", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
-Tab:CreateButton("mm2", function()
-print("hello")loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Murderer-Mystery-2-15545"))()
-end)
+local Tab = Window:MakeTab({
+	Name = "Tap 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Super Throw",
+	Callback = function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/Fling-Things-and-People-super-throw-open-source-43154"))()	
+  	end    
+})
