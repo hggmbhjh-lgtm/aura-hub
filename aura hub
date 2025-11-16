@@ -1,24 +1,30 @@
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("made by nowu_real90", "DarkTheme")
-local Tab = Window:NewTab("سكربت 1")
-local Section = Tab:NewSection("سكربت اول")
-Section:NewButton("اقوا سكربت", "ButtonInfo", function()
-print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/source/yarhm/1.19/yarhm.lua"))()
-end)
-Section:NewButton("99 nights", "ButtonInfo", function()
-print("Clicked")loadstring(game:HttpGet("https://rawscripts.net/raw/99-Nights-in-the-Forest-Voidware-99-nights-in-the-forest-57208"))()
-end)
-Section:NewButton("brookhaven", "ButtonInfo", function()
-print("Clicked")loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-FURIA-HUB-47441"))()
-end)
-Section:NewButton("BombTime", "ButtonInfo", function()
-print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/zyn-scripts/zYn.scripts/refs/heads/main/Auto"))()
-end)
-Section:NewButton("invisble", "ButtonInfo", function()
-print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe. /dbb6ce6f6cee4f7a5c9e20d7b88e83db2a93bf25/Invisible%20GUI'))()
-end)
-local Tab = Window:NewTab("script 2")
-local Section = Tab:NewSection("سكربت اول")
-Section:NewButton("steal a brainrot(updated)", "ButtonInfo", function()
-print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/ily123950/Vulkan/refs/heads/main/Tr"))()
-end)
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "made by nowu_real999", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "DRAGS السحب",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "اقوا رميه Super Throw",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://rawscripts.net/raw/Fling-Things-and-People-super-throw-open-source-43154"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Anti حمايه",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "anti grab مكافحة الاستيلاء",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://rawscripts.net/raw/Fling-Things-and-People-Anti-Grab-41104"))()
+  	end    
+})
+
